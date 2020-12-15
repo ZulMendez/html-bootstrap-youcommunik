@@ -9,26 +9,38 @@
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
 <body>
-    <header>
+    <header class="bg-black">
         <!-- navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div>
-                <img src="./public/img/logo-horizontal-fond-noir-couleur.png" alt="logo">
+        <nav class="navbar navbar-expand-lg container navbar-dark bg-dark mw-100">
+            <div class="">
+                <img class=""src="./public/img/logo-horizontal-fond-noir-couleur.png" alt="logo">
             </div>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="#"><img src="./public/img/home-icon.png" alt="home"><span>home</span></a>
-                    <a class="nav-link" href="#"><img src="./public/img/packages-icon.png" alt="packages"><span>packages</span></a>
-                    <a class="nav-link" href="#"><img src="./public/img/outils-icon.png" alt="outils"><span>outils</span></a>
-                    <a class="nav-link" href="#"><img src="./public/img/projets-icon.png" alt="projet"><span>projet</span></a>
-                    <a class="nav-link" href="#"><img src="./public/img/temoignages-icon.png" alt="temoignages"><span>temoignages</span></a>
-                    <a class="nav-link" href="#"><img src="./public/img/contact-icon.png" alt="contact"><span>contact</span></a>
+                <div class="navbar-nav ml-auto text-center">
+                    <a class="nav-link text-white text-uppercase d-flex flex-column" href="#">
+                        <img src="./public/img/home-icon.png" alt="home"><span>home</span>
+                    </a>
+                    <a class="nav-link text-white text-uppercase d-flex flex-column" href="#">
+                        <img src="./public/img/packages-icon.png" alt="packages"><span>packages</span>
+                    </a>
+                    <a class="nav-link text-white text-uppercase d-flex flex-column" href="#">
+                        <img src="./public/img/outils-icon.png" alt="outils"><span>outils</span>
+                    </a>
+                    <a class="nav-link text-white text-uppercase d-flex flex-column" href="#">
+                        <img src="./public/img/projets-icon.png" alt="projet"><span>projet</span>
+                    </a>
+                    <a class="nav-link text-white text-uppercase d-flex flex-column" href="#">
+                        <img src="./public/img/temoignages-icon.png" alt="temoignages"><span>temoignages</span>
+                    </a>
+                    <a class="nav-link text-white text-uppercase d-flex flex-column" href="#">
+                        <img src="./public/img/contact-icon.png" alt="contact"><span>contact</span>
+                    </a>
                 </div>
             </div>
         </nav>
         <!-- banner -->
         <div>
-            <img src="./public/img/banner-home.png" alt="banner">
+            <img class="w-100" src="./public/img/banner-home.png" alt="banner">
         </div>
         <!-- fin navbar -->
     </header>
@@ -37,11 +49,11 @@
     <section class="about">
         <div class="row">
             <div class="col-6">
-                <img src="./public/img/logo-about.png" alt="about">
+                <img class="mx-auto d-block pt-5" src="./public/img/logo-about.png" alt="about">
             </div>
             <div class="col-6">
-                <h3>Une communication évolutive basée sur l'avancement de votre projet</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, debitis! Sed dicta alias minima ipsa.</p>
+                <h3 class="pt-5 px-auto">Une communication évolutive basée sur l'avancement de votre projet</h3>
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, debitis! Sed dicta alias minima ipsa.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, ducimus.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem omnis magnam officiis aliquam quam veniam cumque error nobis earum sunt.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, reprehenderit itaque natus veniam aliquam aspernatur?</p>
@@ -51,32 +63,32 @@
     <!-- fin section about -->
     <!-- section pack -->
     <section class="pack">
-        <div class="row">
+        <div class="row bg-dark mx-auto text-white mt-5 pt-5">
             <div class="col-6">
-                <img src="./public/img/packages.png" alt="pack">
+                <img class="mx-auto d-block pt-5" src="./public/img/packages.png" alt="pack">
             </div>
             <div class="col-6">
                 <h1>A chaque étape son pack <br>
-                <span>naitre, grandir et propérer</span></h1>        
+                <span class="h4">naitre, grandir et propérer</span></h1>        
             </div>
         </div>
-        <div class="row">
-            <div>
-                <h2>eclosion</h2>
-                <img src="./public/img/icon-eclosion.png" alt="eclosion">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium modi perspiciatis ipsum placeat eligendi soluta.</p>
+        <div class="row bg-dark mb-5 pb-5">
+            <div class="d-flex flex-column align-items-center">
+                <h2 class="text-white text-center">Eclosion</h2>
+                <img class="" src="./public/img/icon-eclosion.png" alt="eclosion">
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium modi perspiciatis ipsum placeat eligendi soluta.</p>
                 <button>ça m'intéresse</button>
             </div>
-            <div>
-                <h2></h2>
+            <div class="d-flex flex-column align-items-center">
+                <h2 class="text-white">Evolution</h2>
                 <img src="./public/img/icon-evolution.png" alt="evolution">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium modi perspiciatis ipsum placeat eligendi soluta.</p>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium modi perspiciatis ipsum placeat eligendi soluta.</p>
                 <button>ça m'intéresse</button>
             </div>
-            <div>
-                <h2></h2>
+            <div class="d-flex flex-column align-items-center">
+                <h2 class="text-white">Envol</h2>
                 <img src="./public/img/icon-envole.png" alt="envole">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium modi perspiciatis ipsum placeat eligendi soluta.</p>
+                <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium modi perspiciatis ipsum placeat eligendi soluta.</p>
                 <button>ça m'intéresse</button>
             </div>
         </div>
@@ -86,35 +98,58 @@
     <section class="pack">
         <div class="row">
             <div class="col-6">
-                <img src="./public/img/outils.png" alt="pack">
+                <img src="./public/img/outils.png" alt="outils">
             </div>
             <div class="col-6">
-                <h1>A chaque étape son pack <br>
-                <span>naitre, grandir et propérer</span></h1>        
+                <h1>Des outils pour une communication complète</h1>        
             </div>
         </div>
         <div class="row">
             <div>
-                <h2>eclosion</h2>
+                <h2>Indentité visuelle</h2>
                 <img src="./public/img/identite-graphique.png" alt="identite">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium modi perspiciatis ipsum placeat eligendi soluta.</p>
                 <button>ça m'intéresse</button>
             </div>
             <div>
-                <h2></h2>
+                <h2>Web</h2>
                 <img src="./public/img/reseaux-sociaux.png" alt="reseaux">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium modi perspiciatis ipsum placeat eligendi soluta.</p>
                 <button>ça m'intéresse</button>
             </div>
             <div>
-                <h2></h2>
+                <h2>Print</h2>
                 <img src="./public/img/print.png" alt="print">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium modi perspiciatis ipsum placeat eligendi soluta.</p>
                 <button>ça m'intéresse</button>
             </div>
         </div>
     </section>
-    
+    <!-- fin section outils -->
+    <!-- footer -->
+    <footer>
+        <div class="row">
+            <div class="col-4">
+                <h4>Packs</h4>
+                <img src="./public/img/icon-eclosion.png" alt="eclosion">
+                <img src="./public/img/icon-evolution.png" alt="evolution">
+                <img src="./public/img/icon-envole.png" alt="envol">
+            </div>
+            <div class="col-4">
+                <h4>Packs</h4>
+                <img src="./public/img/identite-graphique.png" alt="identite">
+                <img src="./public/img/reseaux-sociaux.png" alt="reseaux">
+                <img src="./public/img/print.png" alt="print">
+            </div>
+            <div class="col-4">
+                <h4>Packs</h4>
+                <img src="./public/img/social-f.png" alt="facebook">
+                <img src="./public/img/google-plus.png" alt="google">
+            </div>
+        </div>
+    </footer>
+    <!-- fin footer -->
+
 
 
 <!-- script jquery -->
